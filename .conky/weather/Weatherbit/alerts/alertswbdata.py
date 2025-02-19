@@ -1,12 +1,6 @@
 import os, sys
-# from PIL import Image
-# import time
 import requests
-# import datetime
-# import json
-# import pprint
 import textwrap
-# from textwrap import dedent
 # Lock file to tell conky that the script is running
 lock_file = "/tmp/script_wbalerts.lock"
 # Check lock file
@@ -16,7 +10,7 @@ try:
     homepath = os.environ['HOME']
     homename = homepath
     homename = homename[6:]
-    ################################ set your latitude, longitude and APPID
+    ################################ set your latitude, longitude and APPID between apostrophes
     mylat = 45.40713
     mylon = 11.87680
     myAPPID = ''
@@ -25,7 +19,6 @@ try:
     resA = requests.get(urlA).json()
     dataA = resA
     ################################ set variables
-    myd = 72 # type your north degree
     tdeg = 0
     winddeg = 0
     vtext = 'n/a'
