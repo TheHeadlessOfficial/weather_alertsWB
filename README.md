@@ -13,7 +13,7 @@ Go to `/home/YOURHOMENAME/.conky/weather/Weatherbit/today/` and open with a text
 If you don't know how to get your APPID, follow this video instructions: [APPID guide](https://youtu.be/O0nNilsTJSM?si=Tm1P7A1MYvipxb6L&t=30)<br>
 If you don't know how to get your north degree, follow this video instructions: [North degree guide](https://youtu.be/FxcR7c3YwEQ?si=e-9_AJ79xs_eF-0Z&t=220)<br>
 <br>                                                                                  
-<a href="https://youtu.be/O0nNilsTJSM?si=Tm1P7A1MYvipxb6L&t=30" target="_blank"></a>
+[APPID guide](<a href="https://youtu.be/O0nNilsTJSM?si=Tm1P7A1MYvipxb6L&t=30" target="_blank"></a>)
 <br> 
 In the `font` folder, you can find some fonts you need.<br>
 The python script saves data in files so you can build your conky weather as you wish.<br>
