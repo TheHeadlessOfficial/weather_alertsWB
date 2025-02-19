@@ -27,7 +27,7 @@ conky.config = {
 	extra_newline = false,
 	font = 'URW Gothic L:size=8',
 --font = 'Roboto:size=10',
-	gap_x = -410,-- l|r
+	gap_x = 10,-- l|r
 	gap_y = 10,-- u|d
 	imlib_cache_size = 0,
 	maximum_width = 400,
@@ -56,7 +56,7 @@ conky.config = {
 	show_graph_scale = true,
 	stippled_borders = 5,
 --total_run_times 0,
-	update_interval = 300,
+	update_interval = 900,
 	uppercase = false,-- set to yes if you want all text to be in uppercase
 	use_spacer = 'none',
 	use_xft = true,
@@ -68,26 +68,26 @@ conky.text = [[
 ########################################### load script Python - show timezone, lat and long
 ${execpi 900 python ~/.conkyGITHUB/weather/Weatherbit/alerts/alertswbdata.py}${if_existing /tmp/script_wbalerts.lock}LOADING...${else}
 ########################################### section for alerts (not always available in Openweathermap)
-${execpi 600 sed -n '1p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '2p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '3p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '4p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '5p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '6p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '7p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '8p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '9p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '10p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '11p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '12p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '13p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '14p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '15p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '16p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '17p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '18p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '19p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '20p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
-${execpi 600 sed -n '21p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '1p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '2p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '3p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '4p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '5p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '6p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '7p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '8p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '9p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '10p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '11p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '12p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '13p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '14p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '15p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '16p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '17p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '18p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '19p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '20p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
+${execpi 900 sed -n '21p' $HOME/.conkyGITHUB/weather/Weatherbit/alerts/alerts.txt}
 ${color2}${hr 1}${endif}
 ]];
