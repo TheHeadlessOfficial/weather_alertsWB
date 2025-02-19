@@ -24,6 +24,8 @@ Run the file `.conkyrc_wbcurrent` from terminal (the first time you run this con
 
 
 <br>
+<a href="https://www.esempio.com" target="_blank">Visita il sito esempio.com</a>
+
 <br>
 
 ## Screenshot
