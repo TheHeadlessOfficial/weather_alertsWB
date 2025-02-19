@@ -1,6 +1,6 @@
-# Conky Weather CURRENT (by Weatherbit)
+# Conky Weather ALERTS (by Weatherbit)
  
-A standalone conky (written in Python) that shows the CURRENT weather, using [Weatherbit API](https://weatherbit.io/) website.<br>
+A standalone conky (written in Python) that shows the ALERTS weather, using [Weatherbit API](https://weatherbit.io/) website.<br>
 
 <br>
 <br>
