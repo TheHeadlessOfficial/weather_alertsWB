@@ -1,11 +1,11 @@
-import os, sys
-import requests
-import textwrap
 # Lock file to tell conky that the script is running
 lock_file = "/tmp/script_wbalerts.lock"
 # Check lock file
 try:
     open(lock_file, 'w').close()
+    import os, sys
+    import requests
+    import textwrap
     ################################ get your HOME automatically
     homepath = os.environ['HOME']
     homename = homepath
