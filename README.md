@@ -1,6 +1,6 @@
 # Conky Weather ALERTS (by Weatherbit)
  
-A conky (written in Python) that shows the ALERTS weather, using [Weatherbit API](https://weatherbit.io/) website.<br>
+A conky (with a script written in Python) that shows the ALERTS weather, using [Weatherbit API](https://weatherbit.io/) website.<br>
 
 <br>
 <br>
